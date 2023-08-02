@@ -1,3 +1,5 @@
+<h2>Screenshots</h2>
+
 ![Screenshot 2023-08-02 200206](https://github.com/delvinjoseph13/Netflix_design_reactjs/assets/124490000/8b632694-4ddf-44a6-a746-28240a726877)
 
 
