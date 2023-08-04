@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import "./App.css";
-import {action,originals,comdey,horror,action2,Documentaries} from './urls'
+import {action,originals,comdey,horror,action2,Documentaries,romance} from './urls'
 import Banner from './components/Banner/Banner';
 import RowPoster from './components/RowPoster/RowPoster';
 function App() {
@@ -14,8 +14,9 @@ function App() {
      <RowPoster url={action}  title='Action' isSmall={true}/>
      <RowPoster url={comdey} title='Comdey' isSmall={true}/>
      <RowPoster url={horror}  title='Horror' isSmall={true}/>
-     <RowPoster url={action2}  title='Romance' isSmall={true}/>
+     <RowPoster url={romance}  title='Romance' isSmall={true}/>
      <RowPoster url={Documentaries}  title='Documentaries' isSmall={true}/>
+     <RowPoster url={action2}  title='Action Movies' isSmall={true}/>
 
 
 
