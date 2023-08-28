@@ -16,6 +16,8 @@ trending ='https://api.themoviedb.org/3/trending/all/week?api_key={API_KEY_HERE}
 
 action ='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=28'
 
+
+
 originals ='https://api.themoviedb.org/3/discover/tv?api_key={API_KEY_HERE}&with_networks=213'
 
 ComedyMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=35',
@@ -27,6 +29,31 @@ ActionMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HER
 RomanceMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=10749',
 
 Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=99',
+adventure='https://api.themoviedb.org/3/discover/tv?api_key={API_KEY_HERE}&with_genres=12'
+
+animation='https://api.themoviedb.org/3/discover/tv?api_key={API_KEY_HERE}&with_genres=16'
+
+comedy='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=35'
+
+crime='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=80'
+
+family='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=10751'
+
+histroy='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=36'
+
+music='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=10402'
+
+mystery='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=9648'
+
+science fiction='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=878'
+
+tv_movie='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=10770'
+
+triller='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=53'
+
+war='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=10752'
+
+
 
 ////////////////////////////////////////////////////////////////////API KEY////////////////////////////////////////////////////////////////////////////
 

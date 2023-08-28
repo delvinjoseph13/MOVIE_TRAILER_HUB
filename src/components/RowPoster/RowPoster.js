@@ -10,7 +10,7 @@ function RowPoster(props) {
   useEffect(() => {
     axios.get(props.url).then((response)=>
     {
-      console.log(response.data)
+     // console.log(response.data)
       setMovies(response.data.results)
     })
   }, [])
@@ -41,9 +41,20 @@ function RowPoster(props) {
         <h2>{props.title}</h2>
 
         <div className="posters">
-        {movies.map((obj)=>
+        {movies.map((obj)=>{
+          return ([
+            <div>
             <img onClick={()=>handleMovie(obj.id)} className={props.isSmall ? 'smallposter' : 'posterimg'} src={`${imageUrl+obj.backdrop_path}`} alt="title" />
+             <h1 className='title_desgin'>{obj ?obj.original_title :""}</h1>
+             <h1 className='title_desgin1'>{obj ?obj.release_date :""}</h1>
+             <h1 className='title_desgin2'><span>Movie-rating:</span>{obj ?obj.vote_average :""}</h1>
 
+
+       </div>
+          
+          ])
+          
+          }    
    )}
 
         </div>

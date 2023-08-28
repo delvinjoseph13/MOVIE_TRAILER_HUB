@@ -37,3 +37,21 @@ color: #fff;
 .smallposter:hover{
     transform:scale(1.2)
 }
+
+.title_desgin{
+    font-size:20px;
+    color:rgb(232, 132, 132);
+    max-width: px;
+}
+.title_desgin1{
+    font-size:20px;
+    color:rgb(225, 130, 130);
+}
+.title_desgin2{
+    font-size:20px;
+    color:rgb(225, 130, 130);
+
+}
+span{
+    color: #fff;
+}

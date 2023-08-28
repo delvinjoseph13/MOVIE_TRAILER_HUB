@@ -22,8 +22,9 @@ function Banner() {
               <div className='contents'>
                  <h1 className='title'>{movie ? movie.title :""}</h1>
                 <div className='banner_buttons'>
-                    <button className='button'>Play</button>
-                    <button className='button'>My List</button>
+                    <button className='button'>RELEASE DATE <br></br>{movie ? movie.release_date : ""}</button>
+                    <button className='button'>MOVIE RATING<br></br>{movie ? movie.vote_average :""}</button>
+                    <button className='button'>MOVIE LANGUAGE<br></br>{movie ? movie.original_language :""}</button>
 
                 </div>
                 <h1 class="description">{movie ? movie.overview :""}</h1>
