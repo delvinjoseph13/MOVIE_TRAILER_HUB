@@ -1,6 +1,9 @@
 <h1>Screenshots</h1>
 <br><br>
 
+![Screenshot 2023-08-28 123319](https://github.com/delvinjoseph13/Netflix_design_reactjs/assets/124490000/09eea6d1-03bf-4703-971d-7919f1fb1990)<br><br>
+![Screenshot 2023-08-28 123414](https://github.com/delvinjoseph13/Netflix_design_reactjs/assets/124490000/8e631ab4-7209-4593-961b-615e957ee809)
+
 ![Screenshot 2023-08-02 200206](https://github.com/delvinjoseph13/Netflix_design_reactjs/assets/124490000/8b632694-4ddf-44a6-a746-28240a726877)<br><br>
 
 ![Screenshot 2023-08-02 200812](https://github.com/delvinjoseph13/Netflix_design_reactjs/assets/124490000/4b7646a7-d0be-4049-9040-86525d75cc7d)<br><br>
