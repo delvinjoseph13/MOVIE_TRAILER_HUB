@@ -1,11 +1,25 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "./Navbar.css";
+import SearchForm from '../search/searchForm';
+import SearchResults from '../search/searchReaults';
+
+
+
 
 function Navbar() {
+  const [searchResults, setSearchResults] = useState([]);
+
+  const handleSearch = (results) => {
+    setSearchResults(results);
+  };
+ 
   return (
     <div className='navbar'>
 <img className='logo' src="/images/logo-1.png" alt="Netflix logo" />
-<img className='avatar' src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png" alt="Avatar" />
+
+<h1></h1>
+      <SearchForm onSearch={handleSearch} />
+      <SearchResults results={searchResults} />
     </div>
   )
 }

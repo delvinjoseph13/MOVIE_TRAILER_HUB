@@ -6,9 +6,11 @@ import {action,originals,comdey,horror,action2,Documentaries,romance,Adventure,A
 histroy,music,mystery,science_fiction,tv_movie,triller,war} from './urls'
 import Banner from './components/Banner/Banner';
 import RowPoster from './components/RowPoster/RowPoster';
+
 function App() {
   return (
     <div className="App">
+  
      <Navbar/>
      <Banner/>
      <RowPoster url={originals}  title='Netflix originals'/>
