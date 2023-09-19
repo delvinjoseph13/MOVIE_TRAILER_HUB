@@ -55,3 +55,33 @@ color: #fff;
 span{
     color: #fff;
 }
+
+
+/* Button 1 */
+.review-but {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #FF5858;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .review-but:hover {
+    transform: translateY(-10px);
+    background-color: #FF5858;
+  }
+  
+  .review-but::after {
+    transform: translateY(0);
+  }
+
+  .rowposter-sentiment-score{
+    font-size:1.3rem;
+  }
+  .rowposter-sentiment-title{
+font-size: 1.5rem;
+  }

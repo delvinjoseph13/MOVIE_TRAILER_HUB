@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import axios  from '../../axios'
 import "./Navbar.css";
 import SearchForm from '../search/searchForm';
 import SearchResults from '../search/searchReaults';
@@ -14,6 +15,8 @@ function Navbar() {
     setSearchResults(results);
     setShowResults(true); 
   };
+
+  
  
   const handleCloseResults = () => {
     setSearchResults([]); // Clear search results
@@ -22,7 +25,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-<img className='logo' src="/images/logo-1.png" alt="Netflix logo" />
+<img className='logo' src="/images/logo-1.png" alt="Dady logo" />
 
 
       <SearchForm onSearch={handleSearch} />
@@ -30,6 +33,8 @@ function Navbar() {
      {showResults && (
         <SearchResults results={searchResults} onClose={handleCloseResults} />
       )}
+
+
     </div>
   );
 }

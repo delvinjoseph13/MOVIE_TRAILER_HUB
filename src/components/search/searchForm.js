@@ -27,7 +27,7 @@ const SearchForm = ({ onSearch }) => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search for movies..."
+        placeholder="  Search for movies..."
       />
       
       <button className='searchbutton' type="submit">Search</button>

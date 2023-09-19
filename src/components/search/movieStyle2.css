@@ -12,25 +12,48 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    height: 500px;
+    height: 550px;
     overflow-y: hidden;
 }
 
 .form{
     position: fixed;
-    right: 40px;
+    right: 50px;
+    
    
 }
+@media (max-width:760px ) and  (min-width:370px){
+  input{
+    /* display: flex;
+    justify-content: flex-end; */
+    position: fixed;
+    top:15px;
+    right:-80px;
+    height:20px;
+    width:150px;
+  }
+  .searchbutton{
+    display:none;
+  }
+}
+
 input{
     height: 43px;
     color: black;
+    
     font-weight: bold;
     font-size: 19px;
     /* outline: 1px solid red; */
-    box-shadow: 5px 3px lightblue;
-    position: fixed;
+    box-shadow: 5px 3px rgb(255, 123, 0);
+    /* position: fixed;
     top: 20px;
-    right: 171px;
+    right: 171px; */
+    display: block;
+    margin-right: 8rem;
+    overflow-x: hidden;
+    border-radius: 8px;
+   
+
 }
 
 /* .searchbutton{
