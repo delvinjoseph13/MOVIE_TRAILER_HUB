@@ -31,6 +31,7 @@
     right:-80px;
     height:20px;
     width:150px;
+    
   }
   .searchbutton{
     display:none;
@@ -42,7 +43,7 @@ input{
     color: black;
     
     font-weight: bold;
-    font-size: 19px;
+    font-size: 14px;
     /* outline: 1px solid red; */
     box-shadow: 5px 3px rgb(255, 123, 0);
     /* position: fixed;
@@ -150,6 +151,15 @@ input{
     
   }
   
+  @media (max-width:768px) and (min-width:370px){
+    .firstclose{
+      margin-left: -29px;
+    margin-top: 53px;
+    font-size: 10px;
+    }
+  }
+
+
   #clip {
     --color: #2761c3;
     position: absolute;

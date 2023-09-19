@@ -20,6 +20,20 @@
     font-size: 20px;
     margin-left: 20px;
 }
+@media (max-width:768px) and (min-width:370px){
+  .recommentation-div{
+    margin-top: -827px;
+  }
+  .recomended-movies-title{
+    font-size:20px;
+    margin-left:-25px;
+
+  }
+  /* .recommentedimage{
+    width:80px;
+    height: 100px;
+  } */
+}
 
 .recommend-overview{
     color: rgb(163, 112, 98);
@@ -32,7 +46,7 @@
 }
 .recomended-movies-title{
     color:white;
-    margin-left:20px;
+    margin-left:2px;
 }
 .btn-1{
     margin:auto;
