@@ -1,7 +1,8 @@
 .banner{
    background-size: cover;
     height: 451px;
-    color: white;
+    color: rgb(235, 221, 221);
+    
 }
 
 
@@ -53,7 +54,7 @@ margin-top:0.5rem;
 
 
 .banner-sentiment-title{
-    margin-top: -1.6rem;
+    margin-top: -0.6rem;
     font-size: 1.5rem;
     margin-left: 30px;
 }
@@ -110,6 +111,7 @@ display: none;
         margin-top:-82px;
         margin-left: -27px;
         font-size: 25px;
+        
     }
     .button-1{
         margin-left:-27px;

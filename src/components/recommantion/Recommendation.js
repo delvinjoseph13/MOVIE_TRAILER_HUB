@@ -60,7 +60,7 @@ const MovieRecommendation = () => {
     // Set up a timer to fetch new recommended movies every 20 seconds
     const movieTimer = setInterval(() => {
       fetchRandomMovies();
-    }, 80000);
+    }, 1000000);
 
     // Clean up the movieTimer when the component unmounts
     return () => clearInterval(movieTimer);
@@ -75,7 +75,7 @@ const MovieRecommendation = () => {
 
   return (
     <div className='recommentation-div'>
-      <h1 className='recomended-movies-title'>Random Recommended Movies</h1>
+      <h1 className='recomended-movies-title'>Recommended Movies</h1>
       {loading ? (
         <p>Loading...</p>
       ) : recommendedMovies.length === 0 ? (

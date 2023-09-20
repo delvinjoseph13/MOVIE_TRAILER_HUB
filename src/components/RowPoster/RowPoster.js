@@ -56,10 +56,10 @@ function RowPoster(props) {
 
   return (
     <div className='row'>
-      <h2>{props.title}</h2>
+      <h2 className='rowposter-title-1'>{props.title}</h2>
       <div className='posters'>
         {movies.map((obj) => (
-          <div key={obj.id}>
+          <div  className='poster-div' key={obj.id}>
             <img
               onClick={() => handleMovie(obj.id)}
               className={props.isSmall ? 'smallposter' : 'posterimg'}
@@ -75,7 +75,7 @@ function RowPoster(props) {
 
             {/* Perform sentiment analysis and display the sentiment score */}
             <div className='sentiment-analysis'>
-              <h2 className='rowposter-sentiment-title'>Sentiment Analysis</h2>
+              <h2 className='rowposter-sentiment-title'>S/A:</h2>
               <p className='rowposter-sentiment-score'>Score: {performSentimentAnalysis(obj.overview).score}</p>
             </div>
             <br></br>
@@ -88,7 +88,8 @@ function RowPoster(props) {
              
               {reviews[obj.id] && reviews[obj.id].map((review, index) => (
                 <div key={index} className='review'>
-                  <p>{review}</p>
+                  {/* <p>{review}</p> */}
+                  <button className='button-1'>{review}</button>
                 </div>
               ))}
             </div>

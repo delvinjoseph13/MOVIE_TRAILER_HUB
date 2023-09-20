@@ -19,6 +19,8 @@ function Banner() {
 
     return result;
   };
+  
+
 
   return (
     <div 

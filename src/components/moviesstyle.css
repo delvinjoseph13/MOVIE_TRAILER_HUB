@@ -84,11 +84,11 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    background: red;
+    background:rgb(250,103,7);;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-    background: #e62222;
+    background: rgb(250,103,7);;
    }
    
    .noselect, .noselect span {
@@ -103,7 +103,7 @@
    
    .noselect .icon {
     position: absolute;
-    border-left: 1px solid #c41b1b;
+    border-left: 1px solid rgb(250,103,7);;
     transform: translateX(110px);
     height: 40px;
     width: 40px;
@@ -118,7 +118,7 @@
    }
    
    .noselect:hover {
-    background: #ff3636;
+    background: rgb(250,103,7);;
    }
    
    .noselect:hover .text {

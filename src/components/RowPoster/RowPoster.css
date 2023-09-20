@@ -15,37 +15,59 @@ color: #fff;
     display: none;
 }
 .posterimg{
-    max-height: 250px;
+    max-height: 224px;
     margin-right: 10px;
     cursor: pointer;
     transition: all ease-out 0.6s;
+    padding-left: 10px;
+    padding-top: 8px;
 }
 
 .smallposter{
     cursor: pointer;
     max-height: 160px;
-    margin-right:20px;
+    /* margin-right:20px; */
+    margin-right: 21px;
+    padding-left: 30px;
+    margin-top: 10px;
     transition: all ease-out 0.6s;
+    margin-left: -10px;
 
 }
 
 .posterimg:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
+   
     
 }
 
 .smallposter:hover{
-    transform:scale(1.2)
+    transform:scale(1.1)
+   
+}
+.rowposter-title-1{
+    margin-left:20px;
+    margin-top:25px;
 }
 
 .title_desgin{
     font-size:20px;
-    color:rgb(232, 132, 132);
-    max-width: px;
+    /* color:rgb(232, 132, 132); */
+    color: rgb(243 134 14);
+    margin-left: 21px;
+    margin-top: 3px;
 }
+.poster-div{
+    border:rgb(243 134 14) 2px solid;
+    border-radius: 11px;
+    margin-left:10px;
+    height: 354px;
+}
+
 .title_desgin1{
-    font-size:20px;
-    color:rgb(225, 130, 130);
+    font-size: 17px;
+    color: rgb(28 187 181);
+    margin-left: 21px;
 }
 .title_desgin2{
     font-size:20px;
@@ -59,20 +81,22 @@ span{
 
 /* Button 1 */
 .review-but {
-    width: 150px;
-    height: 50px;
+    width: 111px;
+    height: 41px;
+    margin-left:99px;
     background-color: transparent;
     color: white;
     font-weight: bold;
     border-width: 2px;
-    border-color: #FF5858;
+    border-color: rgb(250,103,7);
+    /* border-color: rgba(28 187 181); */
     border-radius: 20px;
     transition: all 0.3s;
   }
   
   .review-but:hover {
     transform: translateY(-10px);
-    background-color: #FF5858;
+    background-color: rgb(250,103,7);
   }
   
   .review-but::after {
@@ -80,8 +104,11 @@ span{
   }
 
   .rowposter-sentiment-score{
-    font-size:1.3rem;
+    font-size: 0.9rem;
+    margin-left: 21px;
   }
   .rowposter-sentiment-title{
-font-size: 1.5rem;
+    font-size: 0.9rem;
+    margin-left: 21px;
+
   }
